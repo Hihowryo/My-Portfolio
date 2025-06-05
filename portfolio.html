@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shashank Mittapalli | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    * {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+      padding-top: 70px;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .hero {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shashank</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="container">
+      <h1>Shashank Mittapalli</h1>
+      <p>Electrical Engineering Student @ IIT (ISM) Dhanbad</p>
+      <p>
+        📧 <a href="mailto:shashankmittapalli2005@gmail.com">shashankmittapalli2005@gmail.com</a> |
+        📞 +91 9989335082
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/shashank-mittapalli-68a237289/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Shashank-645-code" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="container my-5">
+    <h2 class="section-title">🎓 Education</h2>
+    <ul>
+      <li><strong>IIT (ISM) Dhanbad</strong> – B.Tech in Electrical Engineering – GPA: 7.36/10 – Expected May 2027</li>
+      <li><strong>Sri Chaitanya Junior College</strong>, Hyderabad – 12th Grade (985/1000)</li>
+      <li><strong>Warangal Public School</strong> – 10th Grade (96%)</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container my-5">
+    <h2 class="section-title">💻 Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Medicare System</h5>
+          <p>Full-stack hospital management app using React, Node.js, MongoDB.</p>
+          <a href="https://github.com/Shashank-645-code/Medicare-System" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>Sudoku Solver</h5>
+          <p>Backtracking Sudoku Solver in C++ with performance pruning.</p>
+          <a href="https://github.com/Shashank-645-code/sudoku_solver" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-3">
+          <h5>YouTube Clone</h5>
+          <p>Recreated YouTube frontend using HTML & CSS.</p>
+          <a href="https://github.com/Shashank-645-code" target="_blank">View Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container my-5">
+    <h2 class="section-title">🧠 Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C, C++, Python</li>
+      <li><strong>Technologies:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB, Express</li>
+      <li><strong>Tools:</strong> Git, GitHub, VS Code, Google Colab</li>
+      <li><strong>Concepts:</strong> DSA, OOP, ML, OS, Probability, Robotics Simulation</li>
+    </ul>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="container my-5">
+    <h2 class="section-title">🏆 Achievements</h2>
+    <ul>
+      <li>Mentor @ Physics Wallah (08/2024 - 01/2025)</li>
+      <li>CodeChef Max Rating: 1286</li>
+      <li>100+ problems solved on Leetcode, Codeforces, HackerRank</li>
+      <li>JEE Adv. 2023 Rank: 2707 (OBC-NCL), JEE Mains 98.2 Percentile</li>
+      <li>NTSE Level 1 Qualified</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container my-5">
+    <h2 class="section-title">📬 Contact</h2>
+    <p>
+      📧 <a href="mailto:shashankmittapalli2005@gmail.com">shashankmittapalli2005@gmail.com</a><br>
+      🌐 <a href="https://leetcode.com/u/Code_by_Shashank/" target="_blank">LeetCode</a>,
+      <a href="https://www.codechef.com/users/shashank_645" target="_blank">CodeChef</a>,
+      <a href="https://codeforces.com/profile/Code_by_Shashank" target="_blank">Codeforces</a>,
+      <a href="https://www.hackerrank.com/profile/mittapallishash1" target="_blank">HackerRank</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Shashank Mittapalli. Built with ❤️ using HTML, CSS, JS & Bootstrap.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
